@@ -33,5 +33,4 @@ int isEqualNumbers(int* number) {
 void outputAnswer(int counter) {
 	if (counter != 0) std::cout << "true";
 	if (counter == 0) std::cout << "false";
-	return;
 }
