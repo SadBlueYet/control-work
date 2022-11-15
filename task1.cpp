@@ -11,7 +11,6 @@ void userInput() {
     int secondNumber;
     std::cin >> firstNumber >> secondNumber;
     outputAnswer(max(firstNumber, secondNumber));
-    return;
 }
 int max(int firstNumber, int secondNumber) {
     if (firstNumber >= secondNumber) return firstNumber;
@@ -19,5 +18,4 @@ int max(int firstNumber, int secondNumber) {
 }
 void outputAnswer(int maxNumber) {
     std::cout << maxNumber;
-    return;
 }
