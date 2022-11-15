@@ -10,7 +10,6 @@ void inputCoordinates() {
     int x, y;
     std::cin >> x >> y;
     outputAnswer(quater(&x, &y));
-    return ;
 }
 int quater(int* x, int* y) {
     if (*x != 0 && *y != 0) {
@@ -23,5 +22,4 @@ int quater(int* x, int* y) {
 }
 void outputAnswer(int quater) {
     std::cout << quater;
-    return;
 }
